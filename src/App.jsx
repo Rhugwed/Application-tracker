@@ -5,7 +5,10 @@ import Navigation from "./components/Navigation/Navigation";
 const App = () => {
   return <div>
     <Navigation/>
-    <ApplicationForm></ApplicationForm>
+    <main className="main_container">
+      <ApplicationForm/>
+    </main>
+    
   </div>
 };
 

@@ -3,6 +3,8 @@
     max-width: 1000px;
     margin: auto;
     margin-top: 100px;
+    
+
 }
 
 .application_form{
@@ -21,12 +23,16 @@
     flex-direction: column;
     width: 100%;
     position: relative;
+    
 }
 
 .form_control input{
     height: 40px;
     padding: 0 8px;
     font-size: 18px;
+    border-color: rgb(51, 2, 2);
+    
+    
 }
 
 .form_control label{
@@ -34,8 +40,50 @@
     font-size: 14px;
     top: -12px;
     left: 10px;
+    color: rgb(121, 12, 12);
     background-color: white;
     padding: 0 10px;
+    
 
 }
+
+h2 {
+    margin-top: -50px;
+    margin-bottom: 30px;
+    text-align: center;
+	transform: scalex(1.4) scaley(1.8);
+	font-size: 30px;
+	font-weight: bold;
+	 background-image: linear-gradient(
+    103deg,
+    rgb(244, 0, 0) 0%,
+    rgb(10, 10, 63) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	/* -webkit-box-reflect: below -3px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.2)); */
+}
+
+.table_display {
+	width: 100%;
+	/* height: 100vh; */
+	display: flex;
+	/* justify-content: center;
+	align-items: center; */
+}
+
+table {
+	border: 2px solid rgb(94, 7, 7);
+	width: 100%;
+	height: 200px;
+}
+
+th {
+	border-bottom: 1px solid black;
+}
+
+td {
+	text-align: center;
+}
+
 

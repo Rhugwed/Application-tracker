@@ -11,5 +11,11 @@ margin: 0;
 
 body{
     font-family: 'Poppins', sans-serif;
-}
+    }
 
+.main_container{
+    display:flex;
+    /* height: calc(100vh - 72px); */
+    height: 100vh;
+    flex-direction: column;
+}
